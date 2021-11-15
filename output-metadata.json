@@ -1,20 +1,18 @@
 {
-  "version": 3,
+  "version": 2,
   "artifactType": {
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.diary1",
-  "variantName": "release",
+  "applicationId": "org.example.myapplication",
+  "variantName": "debug",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
-      "attributes": [],
       "versionCode": 1,
       "versionName": "1.0",
-      "outputFile": "app-release.apk"
+      "outputFile": "app-debug.apk"
     }
-  ],
-  "elementType": "File"
+  ]
 }
