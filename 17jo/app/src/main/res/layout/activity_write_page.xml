@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="44dp"
+        android:text="date"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/make_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="제목"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/make_location"
+            android:layout_width="155dp"
+            android:layout_height="48dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="10dp"
+            android:hint="장소"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/location_button"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:text=""
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/make_weather"
+            android:layout_width="155dp"
+            android:layout_height="48dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="10dp"
+            android:hint="날씨"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/weather_button"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:text=""
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="여기에 일기를 작성하세요"
+        android:inputType="textPersonName"
+        android:textSize="10dp" />
+
+    <ImageButton
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:onClick="selectImage"
+        app:srcCompat="@drawable/image_picture_icon"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</LinearLayout>

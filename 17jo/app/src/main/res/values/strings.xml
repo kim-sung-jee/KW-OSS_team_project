@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="nodiary">저장되어 있는 일기가 없습니다.</string>
+    <string name="todo">TODO</string>
+    <string name="write">Write</string>
+    <string name="maps">Maps</string>
+    <string name="delete">Delete</string>
+    <string name="community">Community</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/first_tab"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        android:title="@string/write"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/second_tab"
+        android:enabled="true"
+        android:icon="@drawable/maps_menu"
+        android:title="@string/maps"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/third_tab"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_delete_outline_24"
+        android:title="@string/delete"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/fourth_tab"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:title="@string/community"
+        app:showAsAction="always" />
+</menu>
