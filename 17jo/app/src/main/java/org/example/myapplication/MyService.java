@@ -163,7 +163,7 @@ public class MyService extends Service {
                         b1.start();
                         Thread.sleep(5000);
 
-                        value++;
+                        value=0;
                     }else{
                         value++;
                         System.out.println(value);
