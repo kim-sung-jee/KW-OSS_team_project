@@ -17,8 +17,8 @@
  2. 설치 후 안드로이드 스튜디오를 실행하면 Tools에서 AVD Mangaer를 클릭한다.
  3. + Create Virtual Device를 누른다
  4. 왼쪽에서 Phone 중간에서 Pixel 2를 누르고 next를 누른다
- 5. 이름이 Pie인 것을 누르고 next, Finish를 차례대로 누른다.
- 6. 이 화면을 닫고 다음과 같은 AVD인지 확인 후 바로 옆에 있는 Start버튼을 누른다
+ 5. 이름이 Pie인 것을 누르고 next, Finish를 차례대로 누른다(api버전 28이상부터 지원합니다).
+ 6. 이 화면을 닫고 다음과 같은 AVD인지 확인 후 바로 옆에 있는 Start버튼을 누른다.
  
  ![image](https://user-images.githubusercontent.com/76930260/142139683-d7c9dc5b-dd45-44f1-b4fd-c3218e77f971.png)
 
@@ -32,7 +32,7 @@
 좀 더 원활한 설명을 위하여 영상을 제작하였습니다. 다음 ---를 통해 영상을 확인 할 수 있습니다.
 5) 메인 페이지 하단의 map버튼을 클릭하여 start버튼을 누르게 되면 백그라운드에서 위치추적이 시작됩니다(앱을 꺼도 추적이 됩니다).
 6) (테스트용으로5분으로 설정하였습니다) 약 5분간 같은 좌표(위치)에 머물게 되면 한동안 머물렀던 곳의 위치정보들을 일기쓰기공간에서 선택할 수 있게 됩니다.
-8) 
+ 
 
 
 ![image](https://user-images.githubusercontent.com/76930260/142139820-37547b90-14b5-46c7-901f-1bf7abb4c1b5.png)
