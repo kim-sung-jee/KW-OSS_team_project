@@ -121,7 +121,7 @@ public class writePage extends AppCompatActivity {
         isLogin_check acm=(isLogin_check) getApplication();
         Set<String> set=new HashSet<String>(acm.ac_store_name);
         for(String str:set){
-            if(Collections.frequency(acm.ac_store_name,str)>=3){
+            if(Collections.frequency(acm.ac_store_name,str)>=5){
                 acm.setFinal_name(str);
                 //System.out.println("saafa");
             }
