@@ -127,7 +127,9 @@ public class writePage extends AppCompatActivity {
             }
         }
 
-
+        if(acm.getFinal_name().size()!=0){
+            acm.getAc_store_name().clear();
+        }
 
 
     }
