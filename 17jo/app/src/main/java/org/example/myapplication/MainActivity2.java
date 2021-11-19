@@ -32,6 +32,10 @@ public class MainActivity2 extends AppCompatActivity {
                 //System.out.println("saafa");
             }
         }
+        if(acm.getFinal_name().size()!=0){
+            acm.getAc_store_name().clear();
+        }
+        
         Iterator<String> iterator=acm.getFinal_name().iterator();
         if(acm.getFinal_name().size()!=0) {
             textView.setText(iterator.next());
