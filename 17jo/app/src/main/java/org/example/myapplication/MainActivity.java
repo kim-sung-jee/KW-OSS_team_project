@@ -346,6 +346,7 @@ public class MainActivity extends AppCompatActivity {
                                 weather.setText("");
                                 location.setText("");
                                 textcontent.setText("");
+                                imageView.setImageBitmap(null);
                             }
                             else{
                                 Toast.makeText(getApplicationContext(), "삭제 오류", Toast.LENGTH_LONG).show();
