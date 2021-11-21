@@ -137,6 +137,7 @@ public class TalkAdapter extends BaseAdapter  {
                     //요청객체를 서버로 보낼 우체통 같은 객체 생성
                     RequestQueue requestQueue = Volley.newRequestQueue(view.getContext());
                     requestQueue.add(smpr);
+                    Toast.makeText(view.getContext(),"삭제되었습니다",Toast.LENGTH_SHORT).show();
                 }else{
                     Toast.makeText(view.getContext(),"글쓴이가 아닙니다.",Toast.LENGTH_SHORT).show();
 
