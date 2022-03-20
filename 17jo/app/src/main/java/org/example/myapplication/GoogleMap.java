@@ -266,7 +266,7 @@ public class GoogleMap extends AppCompatActivity {
                     +"?location="+lat+"%2C"+lng
                     +"&radius=100"
                     +"&type=restaurant"
-                    +"&key=AIzaSyBLRoZfAFnl3pUf0CEwdOLGfE9wXPI21RQ";
+                    +"&key=";
             Log.d("test",site);
             builder=builder.url(site);
             Request request=builder.build();
