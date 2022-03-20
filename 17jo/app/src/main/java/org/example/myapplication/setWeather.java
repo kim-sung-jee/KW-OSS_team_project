@@ -33,7 +33,7 @@ public class setWeather {
     @RequiresApi(api = Build.VERSION_CODES.O)
     public String loading(String lat,String lng,String date,String hour) throws IOException {
         //URL 가져오기
-        String service_key="1HYzBnuiZpECrx1U72F97x5pYK5j9CrcmDLy/cLRmXUmFjPkVMqW6H4ORDv0Y1hNdujMsOJjQXiiMn44Hj9FrQ==";
+        String service_key="";
 
         StringBuilder urlBuilder = new StringBuilder("http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtNcst");
         urlBuilder.append("?" + URLEncoder.encode("serviceKey","UTF-8") + "="+service_key); /*Service Key*/
